@@ -40,19 +40,8 @@ public interface DirectMessage extends TwitterResponse, EntitySupport, java.io.S
     Date getCreatedAt();
 
 
-    /**
-     *
-     * @return quick reply options
-     * @since Twitter4J 4.0.7
-     */
-    QuickReply[] getQuickReplies();
 
-    /**
-     *
-     * @return quick reply response metadata
-     * @since Twitter4J 4.0.7
-     */
-    String getQuickReplyResponse();
+  
 
     /**
      *
